@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/CMPT470-1104-group9/!svn/ver/406/pacman/app/models
+END
+match_log.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CMPT470-1104-group9/!svn/ver/80/pacman/app/models/match_log.rb
+END
+avatar.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/CMPT470-1104-group9/!svn/ver/406/pacman/app/models/avatar.rb
+END
+user.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/CMPT470-1104-group9/!svn/ver/364/pacman/app/models/user.rb
+END
+notifier.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CMPT470-1104-group9/!svn/ver/105/pacman/app/models/notifier.rb
+END
+user_session.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/CMPT470-1104-group9/!svn/ver/94/pacman/app/models/user_session.rb
+END
+achievement.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/CMPT470-1104-group9/!svn/ver/364/pacman/app/models/achievement.rb
+END
+game.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/CMPT470-1104-group9/!svn/ver/376/pacman/app/models/game.rb
+END
+pac_dot.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/CMPT470-1104-group9/!svn/ver/348/pacman/app/models/pac_dot.rb
+END
+stat.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/CMPT470-1104-group9/!svn/ver/364/pacman/app/models/stat.rb
+END
+player.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/CMPT470-1104-group9/!svn/ver/375/pacman/app/models/player.rb
+END
+replay.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/CMPT470-1104-group9/!svn/ver/101/pacman/app/models/replay.rb
+END

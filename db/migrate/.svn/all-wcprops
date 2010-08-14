@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/CMPT470-1104-group9/!svn/ver/361/pacman/db/migrate
+END
+20100805055950_add_player_type_to_players.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/CMPT470-1104-group9/!svn/ver/167/pacman/db/migrate/20100805055950_add_player_type_to_players.rb
+END
+20100807050652_add_ghostcounter_to_games.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/CMPT470-1104-group9/!svn/ver/186/pacman/db/migrate/20100807050652_add_ghostcounter_to_games.rb
+END
+20100719032023_create_stats.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/CMPT470-1104-group9/!svn/ver/205/pacman/db/migrate/20100719032023_create_stats.rb
+END
+20100811062758_add_salt_to_game.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/CMPT470-1104-group9/!svn/ver/336/pacman/db/migrate/20100811062758_add_salt_to_game.rb
+END
+20100803213410_add_columns_in_objects.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/CMPT470-1104-group9/!svn/ver/181/pacman/db/migrate/20100803213410_add_columns_in_objects.rb
+END
+20100802034251_create_avatars.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/CMPT470-1104-group9/!svn/ver/110/pacman/db/migrate/20100802034251_create_avatars.rb
+END
+20100809054049_add_expiry_to_player.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/CMPT470-1104-group9/!svn/ver/271/pacman/db/migrate/20100809054049_add_expiry_to_player.rb
+END
+20100719032039_create_objects.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/CMPT470-1104-group9/!svn/ver/11/pacman/db/migrate/20100719032039_create_objects.rb
+END
+20100802034724_add_second_latlong_to_games.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/CMPT470-1104-group9/!svn/ver/123/pacman/db/migrate/20100802034724_add_second_latlong_to_games.rb
+END
+20100728074019_add_long_to_match_logs.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/CMPT470-1104-group9/!svn/ver/86/pacman/db/migrate/20100728074019_add_long_to_match_logs.rb
+END
+20100803040456_add_num_players_to_games.rb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/CMPT470-1104-group9/!svn/ver/125/pacman/db/migrate/20100803040456_add_num_players_to_games.rb
+END
+20100719032017_create_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/CMPT470-1104-group9/!svn/ver/205/pacman/db/migrate/20100719032017_create_users.rb
+END
+20100806045535_create_pac_dots.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/CMPT470-1104-group9/!svn/ver/208/pacman/db/migrate/20100806045535_create_pac_dots.rb
+END
+20100809054028_add_is_powerup_to_pacdots.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/CMPT470-1104-group9/!svn/ver/205/pacman/db/migrate/20100809054028_add_is_powerup_to_pacdots.rb
+END
+20100728074003_add_lat_to_match_logs.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/CMPT470-1104-group9/!svn/ver/86/pacman/db/migrate/20100728074003_add_lat_to_match_logs.rb
+END
+20100809212059_add_lat_long_to_player.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/CMPT470-1104-group9/!svn/ver/336/pacman/db/migrate/20100809212059_add_lat_long_to_player.rb
+END
+20100806050941_add_columns_in_pac_dots.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/CMPT470-1104-group9/!svn/ver/181/pacman/db/migrate/20100806050941_add_columns_in_pac_dots.rb
+END
+20100811174252_create_achievements.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/CMPT470-1104-group9/!svn/ver/361/pacman/db/migrate/20100811174252_create_achievements.rb
+END
+20100720045221_add_users_columns.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/db/migrate/20100720045221_add_users_columns.rb
+END
+20100719032035_create_players.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/CMPT470-1104-group9/!svn/ver/79/pacman/db/migrate/20100719032035_create_players.rb
+END
+20100719032045_create_match_logs.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/CMPT470-1104-group9/!svn/ver/79/pacman/db/migrate/20100719032045_create_match_logs.rb
+END
+20100803071154_add_max_players_to_games.rb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/CMPT470-1104-group9/!svn/ver/128/pacman/db/migrate/20100803071154_add_max_players_to_games.rb
+END
+20100811165742_add_points_to_stats.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/CMPT470-1104-group9/!svn/ver/361/pacman/db/migrate/20100811165742_add_points_to_stats.rb
+END
+20100719032030_create_games.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/CMPT470-1104-group9/!svn/ver/208/pacman/db/migrate/20100719032030_create_games.rb
+END
+20100731000614_add_users_password_reset_fields.rb
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/CMPT470-1104-group9/!svn/ver/105/pacman/db/migrate/20100731000614_add_users_password_reset_fields.rb
+END

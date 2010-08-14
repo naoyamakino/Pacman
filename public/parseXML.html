@@ -1,0 +1,80 @@
+<html>
+<head><script type="text/javascript" src="javascripts/prototype.js"></script>
+<script>
+
+var request;
+
+xmlhttp=new XMLHttpRequest();
+function gameUpdate() 
+{
+	myString = window.location.toString();
+	path_array = myString.split("/");	
+	game_id = path_array[path_array.length-1];
+	var options = {parameters: {game_id: 1, lat: 123, long: 456}, onSuccess: function(){onResponse()}}
+	request = new Ajax.Request('http://cmpt470.csil.sfu.ca:8009/pm_dev/games/gen_xml/3', options)
+	
+}
+	
+function onResponse(){
+alert("OHAI");
+
+/*xmlhttp.open("GET","gen_xml.xml",false);
+xmlhttp.send();
+xmlDoc=xmlhttp.responseXML;
+*/
+
+//testing only
+
+
+//chcek to maek sure that the request that's coming back is valid... but since we call this function on success i don't think that's necessary? works just fine without it right now.. LOL
+/*if(request.readyState!==4) return;
+if(request.status!==200)
+  {
+  alert("Problem retrieving XML data");
+  return;
+  }
+*/
+
+z = request.responseText.getElementsByTagName('entities');
+alert(z);
+x = z[0].getElementsByTagName('player');
+
+for (i=0; i<x.length; i++)
+	{
+  	//GET game data
+  	lat = x[i].getElementsByTagName('lat');
+    long = x[i].getElementsByTagName('long');
+    player_Id = x[i].getElementsByTagName('id');
+	type = x[i].getElementsByTagName('type');
+	status = x[i].getElementsByTagName('status');
+	// unecessary gameid = x[i].getElementsByTagName('gameid');
+
+
+	lat_text = lat[0].firstChild.nodeValue;
+    long_text = long[0].firstChild.nodeValue;
+    player_Id_text = player_Id[0].firstChild.nodeValue;
+	}
+
+d = z[0].getElementsByTagName('dot');
+for (i=0;i<d.length;i++)
+	{
+  	//GET dot data
+  	lat = d[i].getElementsByTagName('lat');
+    	long = d[i].getElementsByTagName('long');
+    	isPowerup = d[i].getElementsByTagName('isPowerup');
+	
+	lat_text = lat[0].firstChild.nodeValue;
+   	long_text = long[0].firstChild.nodeValue;
+   	isPowerup_text = isPowerup[0].firstChild.nodeValue;
+
+	}
+
+} // end on_response
+
+ //end game_update
+
+</script>
+</head>
+
+<body onload="gameUpdate()"></body>
+</html>

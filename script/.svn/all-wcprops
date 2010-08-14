@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/CMPT470-1104-group9/!svn/ver/11/pacman/script
+END
+console
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/CMPT470-1104-group9/!svn/ver/11/pacman/script/console
+END
+server
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/CMPT470-1104-group9/!svn/ver/11/pacman/script/server
+END
+dbconsole
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/CMPT470-1104-group9/!svn/ver/11/pacman/script/dbconsole
+END
+destroy
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/CMPT470-1104-group9/!svn/ver/11/pacman/script/destroy
+END
+runner
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/CMPT470-1104-group9/!svn/ver/11/pacman/script/runner
+END
+about
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/CMPT470-1104-group9/!svn/ver/11/pacman/script/about
+END
+generate
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/CMPT470-1104-group9/!svn/ver/11/pacman/script/generate
+END
+plugin
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/CMPT470-1104-group9/!svn/ver/11/pacman/script/plugin
+END

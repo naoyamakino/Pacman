@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/CMPT470-1104-group9/!svn/ver/110/pacman/vendor/plugins/attachment_fu/test/backends/remote
+END
+s3_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/CMPT470-1104-group9/!svn/ver/110/pacman/vendor/plugins/attachment_fu/test/backends/remote/s3_test.rb
+END
+cloudfiles_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/CMPT470-1104-group9/!svn/ver/110/pacman/vendor/plugins/attachment_fu/test/backends/remote/cloudfiles_test.rb
+END

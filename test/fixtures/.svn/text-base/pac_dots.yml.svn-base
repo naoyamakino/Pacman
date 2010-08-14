@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  latitude: 
+  longitude: 
+  is_eaten: false
+
+two:
+  latitude: 
+  longitude: 
+  is_eaten: false

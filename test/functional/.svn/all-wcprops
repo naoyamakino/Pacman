@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/CMPT470-1104-group9/!svn/ver/110/pacman/test/functional
+END
+games_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/CMPT470-1104-group9/!svn/ver/11/pacman/test/functional/games_controller_test.rb
+END
+stats_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/CMPT470-1104-group9/!svn/ver/11/pacman/test/functional/stats_controller_test.rb
+END
+players_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/CMPT470-1104-group9/!svn/ver/11/pacman/test/functional/players_controller_test.rb
+END
+match_logs_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/CMPT470-1104-group9/!svn/ver/11/pacman/test/functional/match_logs_controller_test.rb
+END
+avatars_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/CMPT470-1104-group9/!svn/ver/110/pacman/test/functional/avatars_controller_test.rb
+END
+users_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/CMPT470-1104-group9/!svn/ver/11/pacman/test/functional/users_controller_test.rb
+END
+password_reset_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/CMPT470-1104-group9/!svn/ver/105/pacman/test/functional/password_reset_controller_test.rb
+END
+user_sessions_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/test/functional/user_sessions_controller_test.rb
+END
+objects_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/CMPT470-1104-group9/!svn/ver/11/pacman/test/functional/objects_controller_test.rb
+END

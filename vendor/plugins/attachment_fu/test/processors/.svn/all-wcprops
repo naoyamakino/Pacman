@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/CMPT470-1104-group9/!svn/ver/110/pacman/vendor/plugins/attachment_fu/test/processors
+END
+mini_magick_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/CMPT470-1104-group9/!svn/ver/110/pacman/vendor/plugins/attachment_fu/test/processors/mini_magick_test.rb
+END
+core_image_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/CMPT470-1104-group9/!svn/ver/110/pacman/vendor/plugins/attachment_fu/test/processors/core_image_test.rb
+END
+image_science_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/CMPT470-1104-group9/!svn/ver/110/pacman/vendor/plugins/attachment_fu/test/processors/image_science_test.rb
+END
+gd2_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/CMPT470-1104-group9/!svn/ver/110/pacman/vendor/plugins/attachment_fu/test/processors/gd2_test.rb
+END
+rmagick_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/CMPT470-1104-group9/!svn/ver/110/pacman/vendor/plugins/attachment_fu/test/processors/rmagick_test.rb
+END

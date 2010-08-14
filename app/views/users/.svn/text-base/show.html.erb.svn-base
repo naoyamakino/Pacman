@@ -1,0 +1,35 @@
+<h2>
+<% if @user.avatar != nil %>
+    <%= image_tag(@user.avatar.public_filename) %>
+<% else %>
+    <%= image_tag("noimage") %>
+ <% end %>
+<%=h @user.username + "(" + @user.email + ")" %></h2>
+
+<table id="userinfo">
+  <tr><td>Email: </td>
+  <td><%=h @user.email %></td></tr>
+  <tr><td>Country: </td><td><%=h @user.country %></td></tr>
+  <tr><td>Province/State: </td><td><%=h @user.province %></td></tr>
+</table>
+
+<h3>Lifetime Game Statistics</h3>
+<p>We keep track of the number of games you've won and players you've eaten so you don't have to! Useful for bragging rights and self-admiration.</p>
+<table>
+  <tr>
+   <th>Games won as a Ghost</th>
+   <th>Games won as Pacman</th>
+   <th>Total Ghosts Eaten</th>
+   <th>Total Pacman Eaten</th>
+  </tr>
+  <% stats = @user.stat %>
+  <tr class="center">
+    <td><%=h stats.games_won_as_ghost %></td>
+    <td><%=h stats.games_won_as_pacman %></td>
+    <td><%=h stats.total_ghosts_eaten %></td>
+    <td><%=h stats.total_pacman_eaten %></td>
+ </tr>
+</table>
+
+<p><%= link_to "Return to browsing games", games_path %></p>
+<p><%= link_to "Return to your User Control Panel", users_path %></p>

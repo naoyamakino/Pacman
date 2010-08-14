@@ -1,0 +1,40 @@
+<div id="centering_floater"></div>
+<div id='centered_container'>
+
+  <h1>Pacman Live</h1>
+  <p class='error'>
+    <%=h "#{flash[:notice]}" if flash[:notice] %>
+    <% if @user.errors.count > 0 %>
+      <% @user.errors.each do |field_name, message| %>
+         <% if field_name == "base" %>
+           <%=h message %>
+         <% else %>
+           <%=h field_name.capitalize %> <%=h message %>
+         <% end %>
+         <%= "<br />" %>
+      <% end %>
+    <% end %>
+  </p>
+
+<div id="password_reset">
+<% form_for @user, :url => url_for(:action => 'update', :id => params[:id]) do |f| %>
+<h3>Password Reset</h3>
+<p>Please type in your new password.</p>
+<fieldset>
+<table>
+  <tr>
+    <td><%= f.label :password, "Password" %></td>
+    <td><%= f.password_field :password, :class => "text" %></td>
+  </tr>
+ 
+  <tr>
+    <td><%= f.label :password_confirmation, "Confirm Password" %></td>
+    <td><%= f.password_field :password_confirmation, :class => "text" %></td>
+  </tr>
+
+  <tr><td><%= f.submit "Update", :class => "button" %></td></tr>
+</table>
+</fieldset>
+<% end %>
+</div>
+</div>

@@ -1,0 +1,44 @@
+<div id="centering_floater"></div>
+<div id='centered_container'>
+
+  <h1>Pacman Live</h1>
+  <p class='error'>
+    <%=h "#{flash[:notice]}" if flash[:notice] %>
+    <% if @user.errors.count > 0 %>
+      <% @user.errors.each do |field_name, message| %>
+         <% if field_name == "base" %>
+           <%=h message %>
+         <% else %>
+           <%=h field_name.capitalize %> <%=h message %>
+         <% end %>
+         <%= "<br />" %>
+      <% end %>
+    <% end %>
+  </p>
+
+<div id="create_user">
+<% form_for @user do |form| %>  
+<h3>Register</h3>
+<p>Please fill out all the fields below</p>
+<table>  
+  <tr>  
+    <td><%= form.label :username, "Username" %></td>
+    <td><%= form.text_field :username, :class => "text" %></td>
+  </tr>  
+  <tr>  
+    <td><%= form.label :email, "Email" %></td>
+    <td><%= form.text_field :email, :class => "text" %></td>
+  </tr>  
+  <tr>  
+    <td><%= form.label :password, "Password" %></td>  
+    <td><%= form.password_field :password, :class => "text" %></td>  
+  </tr>  
+  <tr>  
+    <td><%= form.label :password_confirmation, "Confirm Password" %></td>
+    <td><%= form.password_field :password_confirmation, :class => "text" %></td>
+  </tr>    
+  <tr><td><%= form.submit "Submit", :class => "button" %></td></tr>
+</table>  
+<% end %>  
+</div>
+</div>

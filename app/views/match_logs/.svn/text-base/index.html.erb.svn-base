@@ -1,0 +1,13 @@
+<h2>My Previous Matches</h2>
+<table>
+        <tr>
+                <th>Name of the game</th>
+        </tr>
+        <% @games.each do |game| %>
+        <tr>
+                <td><%= link_to game.name, :controller => 'replays', :action => 'show',:id => game.id%></td>
+        </tr>
+        <% end%>
+</table>
+
+

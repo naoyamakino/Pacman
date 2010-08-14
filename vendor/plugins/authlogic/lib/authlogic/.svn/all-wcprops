@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic
+END
+i18n.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/i18n.rb
+END
+random.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/random.rb
+END
+regex.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/regex.rb
+END
+test_case.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/test_case.rb
+END

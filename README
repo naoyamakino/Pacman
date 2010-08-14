@@ -1,0 +1,44 @@
+Design of the ProjectWe implemented a game of Pacman in real-life with real people using an arbitrary geographical location. 
+What we added into the original game of pacman is that users can actually interact with the game and have real “fun”. 
+By interacting with real geographical location into the game, users find the real feeling of “pacman” and “ghost”. 
+We would like to make a game that is more interactive, fun and being able to play with friends. 
+All commercial and free pacman games are played on a game machine or on the Internet. 
+Our geographical integration into the game is very unique and easy to play and understand.
+
+Project Features
+
+-Core game logic (Umbrella feature)
+	-Position tracking (GPS) 
+	-Enforcement of game boundaries
+	-Collision detection and handling between ghosts and dots on the map. 
+	-Modified starting conditions: instead of staggered release, players are free to position themselves wherever. 
+	-Pacman starts powered up to discourage attempts of boxing Pacman in at game start.-Game generation 
+	-Generation of dots & powerups. 
+	-Password protected games.-Game browser displaying list of open games. 
+	-Games can be rejoined.-User accounts 
+	-Avatars	-Statistics (Only total distance is not implemented) Leaderboards	-Top player gets his avatar displayed 
+
+Indication of Work done by Group MembersStephen – most views, general site look & feel, game core logic implementation, user statistic tracking 
+Naoya – Games Lobby, controller for generating objects, authentication, validating views, testing 
+Juhan – Replays controller and handling mechanism 
+Brandon – new game creation
+Bernard – game core logic, geolocation
+
+Future Work 
+	-Augmented Reality	-Height awareness 
+	-Increasing player capacity, multiple pacman, restricting players to specified paths on game board (roads, intersections, etc) 
+	-Compression on client-server communications 
+	-Recognize current location at the creation of a game so that a box is automatically surrounded by a user’s current location 
+	-Recognize an user access by a mobile phone, adjusting UI accordingly
+
+Self Deployment Instructions
+-------------------------------
+
+Required: 
+
+* Ruby on Rails
+* ImageMagic + it's requirements
+* Sendmail
+* mySQL
+
+Deployment is done via Passenger on Apache. Base URL's in javascript files toggle.js and update.js must be configured appropriately.

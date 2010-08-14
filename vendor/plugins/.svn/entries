@@ -1,0 +1,37 @@
+10
+
+dir
+409
+https://punch.cs.sfu.ca/svn/CMPT470-1104-group9/pacman/vendor/plugins
+https://punch.cs.sfu.ca/svn/CMPT470-1104-group9
+
+
+
+2010-08-04T07:39:42.760286Z
+149
+jha32
+has-props
+
+
+svn:externals
+
+
+
+
+
+
+
+
+
+
+af46a957-530a-4275-bc53-ab24f729a1fa
+
+authlogic
+dir
+
+attachment_fu
+dir
+
+ym4r_gm
+dir
+

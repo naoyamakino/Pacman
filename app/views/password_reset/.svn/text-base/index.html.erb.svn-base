@@ -1,0 +1,24 @@
+<div id="centering_floater"></div>
+<div id='centered_container'>
+
+  <h1>Pacman Live</h1>
+  <p class='error'>
+    <%=h "#{flash[:notice]}" if flash[:notice] %>
+  </p>
+
+<div id="password_reset">
+<% form_tag url_for(:action => 'doReset'), :class => 'nofloat' do %>
+  <h3>Forgot Password</h3>
+  <p>Fill out the form below and instructions to reset your password will be emailed to you: </p>
+  <fieldset>
+  <table>
+  <tr>
+    <td><label>Email:</label></td>
+    <td><%= text_field_tag 'email', nil, :class => "text" %></td>
+  </tr>
+  <tr><td><%= submit_tag "Reset", :class => "button"  %></td></tr>
+  </table>
+  </fieldset>
+<% end %>
+</div>
+</div>

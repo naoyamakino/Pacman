@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/test/libs
+END
+user.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/test/libs/user.rb
+END
+employee.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/test/libs/employee.rb
+END
+user_session.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/test/libs/user_session.rb
+END
+employee_session.rb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/test/libs/employee_session.rb
+END
+affiliate.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/test/libs/affiliate.rb
+END
+company.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/test/libs/company.rb
+END
+project.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/test/libs/project.rb
+END
+ldaper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/test/libs/ldaper.rb
+END
+ordered_hash.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/test/libs/ordered_hash.rb
+END

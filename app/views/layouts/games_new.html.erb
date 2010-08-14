@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>CMPT470 - Pac Man - Game</title>
+        <%= stylesheet_link_tag 'style' %>
+		<%= javascript_include_tag 'initMapCreateGame', 'markerPositions', 'geo', :defaults %>
+  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+  <script src="http://code.google.com/apis/gears/gears_init.js" type="text/javascript" charset="utf-8"></script>
+
+</head>
+
+<body onload="init()">
+
+<div id="container">
+        <h1>Pacman Live: Games</h1>
+        <div id="menu">
+        <ul>
+				<li class="current"><%= link_to image_tag("new") + "Games", games_url %></li>
+                <li><%= link_to image_tag("leaderboard") + "Leaderboards", leaderboards_url %></li>
+				<li><%= link_to image_tag("replay") + "Match Logs", replays_url %></li> 
+                <li><%= link_to image_tag("account") + "Account", users_url %></li>
+                <li><%= link_to image_tag("logout") + "Logout", logout_url %></li>
+        </ul>
+        </div>
+
+        <div id="content">
+         <% if flash[:notice] %><p class="notice"><%=h "#{flash[:notice]}" %></p><% end %>
+        <% if flash[:error] %><p class="error"><%=h "#{flash[:error]}" %></p><% end %>
+        <%= yield %>
+        </div>
+</div>
+</body>
+</html>
+

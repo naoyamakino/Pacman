@@ -1,0 +1,9 @@
+<h2> Game Replay </h2>
+
+<% for location in @replays %>
+   <% location.game_id %>
+   <%=h location.player_id%>
+   (<%=h location.lat-%>,<%=h location.long -%>)
+   <br/>
+  
+<% end %>

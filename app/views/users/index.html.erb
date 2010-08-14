@@ -1,0 +1,77 @@
+<% if @avatar && @avatar.errors.count > 0 %>
+  <% @avatar.errors.each do |field_name, message| %>
+    <%=h field_name.capitalize %> <%=h message %>
+    <%= "<br />" %>
+  <% end %>
+<% end %>
+
+<h2>
+<% if @user.avatar != nil %>
+    <%= image_tag(@user.avatar.public_filename) %>
+<% else %>
+    <%= image_tag("noimage") %>
+ <% end %>
+<%=h @user.username + "(" + @user.email + ")" %></h2>
+
+<table id="userinfo">
+  <tr><td>Email: </td>
+  <td><%=h @user.email %></td></tr>
+  <tr><td>Country: </td><td><%=h @user.country %></td></tr>
+  <tr><td>Province/State: </td><td><%=h @user.province %></td></tr>
+</table>
+
+<p><%= link_to "Edit User Account", edit_user_path("account") %></p>
+
+<h3>Achievements</h3>
+<% if @user.achievements.count > 0 %>
+  <table>
+    <tr>
+      <th>Achievement</th>
+      <th>Description</th>
+    </tr>
+  <% for a in @user.achievements %>
+    <tr>
+      <td><%=h a.name %></td>
+      <td><%=h a.desc %></td>
+    </tr>
+  <% end %>
+  </table>
+<% else %>
+  <p>I'm sorry...but you have no achievements yet. ;_;</p>
+<% end %>
+
+<h3>Lifetime Game Statistics</h3>
+<p>We keep track of the number of games you've won and players you've eaten so you don't have to! Useful for bragging rights and self-admiration.</p>
+<table>
+  <tr>
+   <th>Games won as a Ghost</th>
+   <th>Games won as Pacman</th>
+   <th>Total Ghosts Eaten</th>
+   <th>Total Pacman Eaten</th>
+  </tr>
+  <% stats = @user.stat %>
+  <tr class="center">
+    <td><%=h stats.games_won_as_ghost %></td>
+    <td><%=h stats.games_won_as_pacman %></td>
+    <td><%=h stats.total_ghosts_eaten %></td>
+    <td><%=h stats.total_pacman_eaten %></td>
+ </tr>
+</table>
+
+<h3>Change Avatar</h3>
+<% form_for(:avatar, :url => avatars_path, :html => { :multipart => true }) do |f| -%>
+<p>Avatar images are used solely for decorative purposes and have no impact on the game itself aside from being able to see your avatar <strong>dance</strong> around the game map.</p>
+<fieldset>
+    <%= f.file_field :uploaded_data %><br />
+</fieldset>
+<p>Images must be no greater than <strong>500 kb</strong> in size with the optimum resolution being 125x125. Images will be resized to fit.</p>
+	<fieldset>
+	    <%= submit_tag 'Change avatar' %>
+	</fieldset>
+	<% end -%>
+
+<h3>Delete Account</h3>
+	<p><img src="/rails/images/warning.png" alt="" />If you feel that for whatever reason, you do not want your account any more, you may delete your account (and <strong>all</strong> game information and statistics will be <strong>forever</strong> lost.</p> 
+	<%= button_to "Delete your account", @user, :method => :delete,
+					     :confirm => "Are you sure?", :class => "button" %>
+

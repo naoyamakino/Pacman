@@ -1,0 +1,38 @@
+<% form_for @user do |f| %>
+  <fieldset>
+  <table>
+    <tr>
+    <td><label id="user_name_lbl"><strong>Username</strong></label></td>
+    <td><%= f.text_field :username, :class => "text" %></td>
+    </tr>
+
+    <tr>
+      <td><label id="user_email_lbl"><strong>Email</strong></label></td>
+      <td><%= f.text_field :email, :class => "text" %></td>
+    </tr>
+
+    <tr>
+      <td><label id="user_country_lbl"><strong>Country</strong></label></td>
+      <td><%= f.text_field :country, :class => "text" %></td>
+    </tr>
+
+    <tr>
+      <td><label id="user_province_lbl"><strong>Province</strong></label></td>
+      <td><%= f.text_field :province, :class => "text" %></td>
+    </tr>
+
+    <tr>
+      <td><label id="person_password_lbl"><strong>Password</strong></label></td>
+      <td><%= f.password_field :password, :class => "text" %></td>
+    </tr>
+
+    <tr>
+      <td><label id="person_password_confirmation_lbl"><strong>Confirm Password</strong></label></td>
+      <td><%= f.password_field :password_confirmation, :class => "text" %></td>
+    </tr>
+
+    <tr><td><%= submit_tag "Submit", :class => "button" %></td></tr>
+  </table>
+  </fieldset>
+<% end %>
+

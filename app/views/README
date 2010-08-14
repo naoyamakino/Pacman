@@ -1,0 +1,22 @@
+Understanding the RoR views hierarchy
+=====================================
+
+RoR renders views something like this (in order from left to right): 
+  application.html.erb || [controller].html.erb > [action].html.erb
+
+Example: If we're creating a new user and the path is: http://cmpt470.csil.sfu.ca:8009/pacman/users/new
+  Site root: http://cmpt470.csil.sfu.ca:8009/pacman
+  Controller: users
+  Action: new
+
+...even for RESTful paths. Thus RoR will render:
+  layouts/application.html.erb
+
+If layouts/application.html.erb does NOT exist...then we render the next best thing: 
+  layouts/users.html.erb
+
+Upon encountering the <%= yield > in whichever view was rendered above ... we will go on to render the specific bits: 
+  users/new.html.erb
+
+...which will be combined with the layout view to form what you get: (X)HTML code and all. You should be able to output XML as well. 
+

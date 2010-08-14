@@ -1,0 +1,57 @@
+
+<!-- Do Rank #1 -->
+<% if @leaderboards.count > 0 %>
+<% stat = @leaderboards[0] %>
+<h2><%=h "Points Leader: " + stat.user.username + " (#{stat.points}  points)" %></h2>
+<p>
+<% if stat.user.avatar != nil %>
+    <%= image_tag(stat.user.avatar.public_filename) %>
+<% else %>
+    <%= image_tag("noimage") %>
+ <% end %>
+</p>
+
+<br /><!-- CHEATER! -->
+
+<% stat = @leaderboards[0] %>
+<table id="userinfo">
+  <tr><td>Games Won: Ghost</td>
+  <td><%=h stat.games_won_as_ghost %></td></tr>
+  <tr><td>Games Won: Pacman </td><td><%=h stat.games_won_as_pacman %></td></tr>
+  <tr><td>Total Ghosts Eaten </td><td><%=h stat.total_ghosts_eaten %></td></tr>
+  <tr><td>Total Pacman Eaten</td><td><%=h stat.total_pacman_eaten %></td></tr>
+</table>
+<% end %>
+
+<h3>Top 10</h3>
+<p>Points are assigned as follows: <strong>4 points</strong> for a win as Pacman, <strong>3 points</strong> per win as a Ghost, <strong>2 points</strong> for every ghost eaten, and <strong>1 point</strong> for every pacman eaten. The justification is that it is harder to get kills with Pacman and win games with Pacman than as a Ghost.</p>
+<table>
+        <tr>
+	  <th>Rank</th>
+          <th>Username</th>
+	  <th>Points</th>
+     	  <th>Ghost Wins</th>
+	  <th>Pacman Wins</th>
+	  <th>Ghosts Eaten</th>
+	  <th>Pacman Eaten</th>
+        </tr>
+
+	<% rank = 1 %>
+        <%for stat in @leaderboards %>
+        <tr class="center">
+	        <td><%=h rank %></td>
+                <td><%=h stat.user.username %></td>
+		<td><%=h stat.points %></td>
+                <td><%=h stat.games_won_as_ghost %></td>
+                <td><%=h stat.games_won_as_pacman %></td>
+                <td><%=h stat.total_ghosts_eaten %></td>
+                <td><%=h stat.total_pacman_eaten %></td>
+        </tr>
+	<% rank += 1 %>
+        <% end%>
+</table>
+
+
+
+
+

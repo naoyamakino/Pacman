@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/test/session_test
+END
+unauthorized_record_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/test/session_test/unauthorized_record_test.rb
+END
+callbacks_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/test/session_test/callbacks_test.rb
+END
+magic_columns_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/test/session_test/magic_columns_test.rb
+END
+session_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/test/session_test/session_test.rb
+END
+params_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/test/session_test/params_test.rb
+END
+persistence_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/test/session_test/persistence_test.rb
+END
+active_record_trickery_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/test/session_test/active_record_trickery_test.rb
+END
+timeout_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/test/session_test/timeout_test.rb
+END
+existence_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/test/session_test/existence_test.rb
+END
+validation_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/test/session_test/validation_test.rb
+END
+scopes_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/test/session_test/scopes_test.rb
+END
+cookies_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/test/session_test/cookies_test.rb
+END
+id_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/test/session_test/id_test.rb
+END
+credentials_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/test/session_test/credentials_test.rb
+END
+http_auth_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/test/session_test/http_auth_test.rb
+END
+activation_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/test/session_test/activation_test.rb
+END
+password_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/test/session_test/password_test.rb
+END
+magic_states_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/test/session_test/magic_states_test.rb
+END
+brute_force_protection_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/test/session_test/brute_force_protection_test.rb
+END
+perishability_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/test/session_test/perishability_test.rb
+END
+klass_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/test/session_test/klass_test.rb
+END

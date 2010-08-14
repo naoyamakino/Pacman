@@ -1,0 +1,49 @@
+<% if @game.errors.count > 0 %>
+  <p class="error">Failed to create the game! You have some errors: <br />
+  <% @game.errors.each do |field_name, message| %>
+    * <%=h field_name.capitalize %>:    <%=h message %><br />
+  <% end %>
+  </p>
+<% end %>
+
+<h2>Create a Game</h2>
+<p>Please fill out the fields below. <strong>If you specify a password, the game can only be joined by those who know the password</strong></p>
+<% form_for @game do |form| %>  
+<fieldset>
+  <%= form.hidden_field :latitude, :class => "text", :id => "markerlat1" %>
+  <%= form.hidden_field :longitude, :class => "text", :id => "markerlong1" %>
+  <%= form.hidden_field :latitude2, :class => "text", :id => "markerlat2" %>
+  <%= form.hidden_field :longitude2, :class => "text", :id => "markerlong2" %>
+
+<table>  
+  <tr>  
+    <td><%= form.label :name, "Name: " %></td>  
+    <td><%= form.text_field :name, :class => "text" %></td> 
+  </tr>
+  <tr>
+    <td><%= form.label :area, "Area: " %></td>
+    <td><%= form.text_field :area, :class => "text" %></td>
+  </tr>  
+  <tr>  
+    <td><%= form.label :password, "Password" %></td>  
+    <td><%= form.password_field :password, :class => "text" %></td> 
+  </tr>  
+  <tr>  
+    <td><%= form.label :hasPowerups, "Power Ups" %></td>  
+    <td><%= form.check_box :hasPowerups %></td>  
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>Please drag the markers to specify the area and boundaries of the game.</td>
+  </tr>
+  <tr>
+    <td><div id="map"></div></td>
+  </tr>
+  <tr>
+    <td><%= submit_tag "Create Game", :class => "button", :onclick => "getPos(this.form)" %></td>
+  </tr>  
+</table>
+</fieldset>
+<% end %>  

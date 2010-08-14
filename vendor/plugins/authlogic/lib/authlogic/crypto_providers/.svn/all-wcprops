@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/crypto_providers
+END
+bcrypt.rb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/crypto_providers/bcrypt.rb
+END
+sha512.rb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/crypto_providers/sha512.rb
+END
+aes256.rb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/crypto_providers/aes256.rb
+END
+md5.rb
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/crypto_providers/md5.rb
+END
+sha256.rb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/crypto_providers/sha256.rb
+END
+wordpress.rb
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/crypto_providers/wordpress.rb
+END
+sha1.rb
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/crypto_providers/sha1.rb
+END

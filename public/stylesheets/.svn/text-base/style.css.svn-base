@@ -1,0 +1,301 @@
+html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	background:none repeat scroll 0 0 transparent;
+	border:0 none;
+	font-size:100%;
+	margin:0;
+	outline:0 none;
+	padding:0;
+	vertical-align:baseline;
+}
+
+html, body {
+	height: 100%;
+	line-height:1.5;
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma,Geneva,Kalimati,sans-serif;
+	font-size: 12px;
+	color: #DDD;
+	background-color: #DDD;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	color: #333;
+}
+
+a {
+	text-decoration: underline;
+	color: #FC0;
+}
+
+table,td,th
+{
+font-weight: normal;
+}
+table
+{
+width:100%;
+}
+
+#container {
+	min-width: 570px;
+	max-width: 800px;
+	margin: 0 auto;
+	color: #000;
+}
+
+#centering_floater {
+	float:left;
+	height:50%;
+	margin-bottom:-150px;
+	width:1px;
+}
+
+#centered_container {
+	clear:both;
+}
+
+#container h1
+{
+	background: url("../images/pacman.png") no-repeat scroll 0 0 transparent;
+	height:0;
+	margin: 20px 10px;
+	overflow: hidden;
+	padding: 52px 0 0;
+	width: 288px;
+}
+
+#centered_container h1 {	
+    background: url("../images/pacman.png") no-repeat scroll 0 0 transparent;
+	height:0;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	overflow: hidden;
+	padding: 52px 0 0;
+	width: 288px;
+}
+
+#menu {
+	background-color: #333;
+	border-bottom: 5px solid #FC0;	
+	padding: 5px 5px;
+	margin: 0 auto;
+}
+
+#menu ul li img {
+	vertical-align: bottom;
+	position: relative;
+	padding: 0 5px 0 5px;
+}
+
+#menu ul li {	
+	display: inline;
+	font-size: 14px;
+}
+
+#menu ul li.current {
+	background-color: #FC0;
+	color: #333;
+	padding: 10px 8px;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#menu ul a, #menu ul a:visited {
+	color: #FFF;
+	text-decoration: none;
+	padding: 4px 5px;
+}
+
+#menu ul a:hover, #menu ul a:active {	
+	background-color: #FC0;
+	color: #000;
+	padding: 12px 5px;
+	font-weight: bold;	
+}
+
+#content {
+	background-color: #FFF;
+	padding: 15px;
+}
+
+#content h1, #content h2, #content h3 {
+	clear: left;
+	margin: 8px 0px;
+}
+
+#content h3 {
+	color: #FFF;
+	background-color: #333;
+	padding: 5px;
+	font-weight: bold;	
+	margin: 15px 0px;
+}
+
+#content a {
+	color: #333;
+	font-weight: bold;
+}
+
+#content p {
+	margin: 5px;
+}
+
+#content p.notice {
+	margin: 0;
+	padding: 10px;
+	border: 1px solid #090;
+	background-color: #0F0;
+	font-weight: bold;
+	color: #000;
+}
+
+#content p.error {
+	margin: 0;
+	font-weight: bold;
+	padding: 10px;
+	border: 1px solid #900;
+	background-color: #F00;
+	color: #FFF;
+}
+
+#content img {
+	float: left;
+	margin-right: 15px;
+}
+
+#centered_container p.error {
+	color:#FF0000;
+	font-size:12px;
+	font-weight:bold;
+	margin:1em 0.25px 1em 0.25em;
+	text-align:center;
+}
+
+#content table {
+	border: 0px solid #000;
+	margin: 10px 0px;
+}
+
+#content table#userinfo {
+	display: inline;
+}
+
+#content table th {
+	color: #000;
+	background-color: #AAA;
+	font-weight: bold;
+	font-size: 14px; 
+	padding: 5px;
+}
+
+#content table td {
+	padding: 5px;
+}
+
+#content table tr.alt {
+	background-color: #DDD;
+}
+
+#content table tr.center {
+	text-align: center;
+}
+
+#centered_container h3 {
+	font-size: 16px;
+        font-weight: bold;
+        color: #FC0;
+}
+
+/* Login box styling */ 
+#login {
+	background-color: #1D1F1C;
+	margin: 0 auto;
+	width: 700px;
+ 	padding: 15px;
+}
+
+#login #register {
+	margin-left: 365px;
+}
+
+#login form {
+	float: left;
+	width: 345px;
+}
+
+#centered_container table, #centered_container td, #centered_container tr {
+	border: 0px solid #FFF;
+}
+
+#centered_container label {
+	color: #FFF;
+	width: 65px;
+	margin: 7px 5px;
+	text-decoration: underline;
+}
+
+#centered_container input {
+        padding: 2px 5px;
+        margin: 4px 10px;
+}
+
+#centered_container input.text {
+        width: 225px;
+}
+
+#centered_container input.button {
+        margin: 5px 2px;
+        padding: 1px 15px;
+}
+
+#login p {
+	margin: 5px 0px;
+	font-size:12px;
+	padding-left: 2px;
+}
+
+#login p.notice {
+	background-color: #9F9A7D;
+        text-align: center;
+	color: #FF2418;
+	font-weight: bold;
+}
+
+#create_user {
+        background-color: #1D1F1C;
+        margin: 0 auto;
+        width: 400px;
+        padding: 10px;
+}
+
+#new_user form {
+        width: 385px;
+}
+
+/* Forget password styling */
+#password_reset {
+        background-color: #1D1F1C;
+        margin: 0 auto;
+        width: 375px;
+        padding: 15px;
+}
+
+/* Map styling. */
+#map {
+        width: 600px;
+        height: 400px;
+}
+
+#map_canvas {
+	width: 320;
+	height: 350px;
+}
+
+#create_game {
+        margin: 0 auto;
+        padding: 10px;
+}

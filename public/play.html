@@ -1,0 +1,172 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>CMPT470 - Pac Man - Game</title>
+        <link href="style.css" media="screen" rel="stylesheet" type="text/css" />
+
+ 	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
+<script>
+	var request;
+    var map;
+	var player;
+	var object;
+	xmlhttp=new XMLHttpRequest();
+	
+function gameUpdate() 
+{
+	myString = window.location.toString();
+	path_array = myString.split("/");	
+	game_id = path_array[path_array.length-1];
+
+	/*
+	var request = new Ajax.Request('http://cmpt470.csil.sfu.ca:8009/pm_dev/games/play',{ 
+	parameters: {game_id, lat: p.coords.latitude, long: p.coords.longitude}, onSuccess: function(){onResponse()}}
+	*/
+	
+	//for testing parsing from a file
+	var options = {parameters: {game_id: 1, lat: 123, long: 456}, onSuccess: function(){onResponse()}}
+	request = new Ajax.Request('http://localhost:3000/games/play', options)
+	
+}
+	
+function onResponse(){
+
+	map = new google.maps.Map(document.getElementById('map'), {
+    'zoom': 14,
+    'center': new google.maps.LatLng(49.284, -123.120),
+    'mapTypeId': google.maps.MapTypeId.ROADMAP
+    });
+
+xmlhttp.open("GET","gen_xml.xml",false);
+xmlhttp.send();
+xmlDoc=xmlhttp.responseXML;
+
+
+//z = xmlDoc.getElementsByTagName('entities');
+z = xmlhttp.responseXML.documentElement.getElementsByTagName('entities');
+x = z[0].getElementsByTagName('player');
+
+for (i=0; i<x.length; i++)
+	{
+  	//GET game data
+  	lat = x[i].getElementsByTagName('latitude');
+    long = x[i].getElementsByTagName('longitude');
+    playerid = x[i].getElementsByTagName('player_id');
+	type = x[i].getElementsByTagName('type');
+	status = x[i].getElementsByTagName('status');
+	gameid = x[i].getElementsByTagName('gameid');
+	
+	lat_text = lat[0].firstChild.nodeValue;
+    long_text = long[0].firstChild.nodeValue;
+    playerid_text = player_id[0].firstChild.nodeValue;
+	type_text = type[0].firstChild.nodeValue;
+	status_text = type[0].firstChild.nodeValue;
+	gameid_text = game_id[0].firstChild.nodeValue;
+	
+	//places player locations
+	if (type == 'ghost'){
+		player = new google.maps.Marker({
+		map: map,
+		position: new google.maps.LatLng(lat, long),
+		draggable: false,
+		icon : 'http://chart.apis.google.com/chart?chst=d_map_pin_icon&chld=WCmale|FF0000',
+		title: 'Ghost'
+		});
+	}
+	else{
+		//player is pacman
+		player = new google.maps.Marker({
+		map: map,
+		position: new google.maps.LatLng(lat, long),
+		draggable: false,
+		icon: 'http://chart.apis.google.com/chart?chst=d_map_spin&chld=1.2|30|FFFF88|10|_|pac|man',
+		title: 'PacMan'
+		});
+	}
+	
+	}
+
+d = z[0].getElementsByTagName('dot');
+for (i=0;i<d.length;i++)
+	{
+  	//GET in-game data
+  	lat = d[i].getElementsByTagName('latitude');
+    long = d[i].getElementsByTagName('longitude');
+    isPowerup = d[i].getElementsByTagName('isPowerup');
+	lat_text = lat[0].firstChild.nodeValue;
+    long_text = long[0].firstChild.nodeValue;
+    isPowerup = isPowerup[0].firstChild.nodeValue;
+	}
+	//place dot markers
+	if (isPowerup == 'false'){
+		object = new google.maps.Marker({
+		map: map,
+		position: new google.maps.LatLng(lat, long),
+		draggable: false,
+		icon : 'http://chart.apis.google.com/chart?chst=d_map_spin&chld=1.2|30|FFFFFF|10',
+		title: 'Dot'
+	});
+	else{
+		//object is a powerup
+		object = new google.maps.Marker({
+		map: map,
+		position: new google.maps.LatLng(lat, long),
+		draggable: false,
+		icon : 'http://chart.apis.google.com/chart?chst=d_map_xpin_letter&chld=pin_star|P|FFFFFF|000000|FFFF88',
+		title: 'Power Up'		
+	}
+
+} // end on_response
+} //end game_update
+
+google.maps.event.addDomListener(window, 'load', init);
+
+</script>
+
+
+</head>
+
+//<body onload="gameUpdate()>
+<div id="wrapper">
+	<div id="menu">
+		<ul>
+			<li><a href="/pacman/users">Home</a></li>
+                        <li><a href="/pacman/logout">Log Out</a></li>
+
+		</ul>
+	</div>
+    
+	<div id="header">
+    
+	</div>
+    
+<div style="clear: both;">&nbsp;</div>
+    
+ <div id="container">
+    
+  <div id="content">
+			
+   <h1>Play Game</h1>
+
+
+<div id="map"></div>
+
+</div>
+</div>
+</div>
+
+<div style="clear: both;">&nbsp;</div>
+
+</div>
+
+	<div id="footer">
+		<p>Copyright(c) 2010 Delta470.</p>
+
+	</div>
+    
+</body>
+</html>
+

@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/session
+END
+klass.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/session/klass.rb
+END
+perishable_token.rb
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/session/perishable_token.rb
+END
+unauthorized_record.rb
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/session/unauthorized_record.rb
+END
+priority_record.rb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/session/priority_record.rb
+END
+callbacks.rb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/session/callbacks.rb
+END
+magic_columns.rb
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/session/magic_columns.rb
+END
+session.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/session/session.rb
+END
+params.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/session/params.rb
+END
+persistence.rb
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/session/persistence.rb
+END
+active_record_trickery.rb
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/session/active_record_trickery.rb
+END
+timeout.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/session/timeout.rb
+END
+existence.rb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/session/existence.rb
+END
+validation.rb
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/session/validation.rb
+END
+scopes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/session/scopes.rb
+END
+cookies.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/session/cookies.rb
+END
+id.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/session/id.rb
+END
+http_auth.rb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/session/http_auth.rb
+END
+activation.rb
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/session/activation.rb
+END
+password.rb
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/session/password.rb
+END
+magic_states.rb
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/session/magic_states.rb
+END
+brute_force_protection.rb
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/session/brute_force_protection.rb
+END
+foundation.rb
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/session/foundation.rb
+END
+base.rb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/session/base.rb
+END

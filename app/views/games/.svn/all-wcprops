@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/CMPT470-1104-group9/!svn/ver/405/pacman/app/views/games
+END
+play.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/CMPT470-1104-group9/!svn/ver/397/pacman/app/views/games/play.html.erb
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/CMPT470-1104-group9/!svn/ver/401/pacman/app/views/games/index.html.erb
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/CMPT470-1104-group9/!svn/ver/405/pacman/app/views/games/new.html.erb
+END
+show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/CMPT470-1104-group9/!svn/ver/401/pacman/app/views/games/show.html.erb
+END
+password.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/CMPT470-1104-group9/!svn/ver/401/pacman/app/views/games/password.html.erb
+END

@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/CMPT470-1104-group9/!svn/ver/105/pacman/app/views/notifier
+END
+password_reset_email.erb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/CMPT470-1104-group9/!svn/ver/105/pacman/app/views/notifier/password_reset_email.erb
+END

@@ -1,0 +1,32 @@
+<div align="center">
+	<div id="title">Show Position In Map</div>
+	<div id="current">Initializing...</div>
+  <div id="map_canvas"></div><br>
+
+<input type ="button" value="Send Ready" onClick="toggleReady();flipText('myButton');" id="myButton">
+
+</div>
+<div id="content">
+
+<p>The objective of Pacman is to collect all ten dots without being eaten by a Ghost. By eating a Power Up, Pacman will temporarily turn invulnerable and have the ability to "eat" Ghosts.<br> 
+The objective of a Ghost is to "eat" Pacman by being in close proximity to Pacman's location.</p>
+<div align="center">
+<table border="3px">
+<tr>
+ <td><h3>Legend</h3></td>
+</tr>
+<tr>
+ <td>
+  <img src="http://cmpt470.csil.sfu.ca:8009/pacman/images/pacman_icon"  width="25px" height="25px"/><strong> PacMan</strong>
+  <h4><img src="http://cmpt470.csil.sfu.ca:8009/pacman/images/ghost" width="25px" height="25px"/><strong> Ghost</strong>
+  <h4><img src="http://cmpt470.csil.sfu.ca:8009/pacman/images/dot"   width="25px" height="25px"/><strong> Dot</strong>
+  <h4><img src="http://cmpt470.csil.sfu.ca:8009/pacman/images/powerUp"  width="25px" height="25px"/><strong> Power Up - (Pacman only)</strong>
+ </td>
+</tr>
+</table>
+</div>
+</div>
+
+
+
+

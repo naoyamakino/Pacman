@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/authenticates_many
+END
+base.rb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/authenticates_many/base.rb
+END
+association.rb
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/authenticates_many/association.rb
+END

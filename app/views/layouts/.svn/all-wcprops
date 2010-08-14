@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/CMPT470-1104-group9/!svn/ver/359/pacman/app/views/layouts
+END
+games_new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/CMPT470-1104-group9/!svn/ver/339/pacman/app/views/layouts/games_new.html.erb
+END
+leaderboards.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/CMPT470-1104-group9/!svn/ver/330/pacman/app/views/layouts/leaderboards.html.erb
+END
+nouser.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/CMPT470-1104-group9/!svn/ver/168/pacman/app/views/layouts/nouser.html.erb
+END
+games.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/CMPT470-1104-group9/!svn/ver/359/pacman/app/views/layouts/games.html.erb
+END
+replays.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/CMPT470-1104-group9/!svn/ver/320/pacman/app/views/layouts/replays.html.erb
+END
+match_logs.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/CMPT470-1104-group9/!svn/ver/320/pacman/app/views/layouts/match_logs.html.erb
+END
+users.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/CMPT470-1104-group9/!svn/ver/320/pacman/app/views/layouts/users.html.erb
+END
+application.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/CMPT470-1104-group9/!svn/ver/178/pacman/app/views/layouts/application.html.erb
+END
+user_sessions.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/CMPT470-1104-group9/!svn/ver/179/pacman/app/views/layouts/user_sessions.html.erb
+END

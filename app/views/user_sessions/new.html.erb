@@ -1,0 +1,49 @@
+<div id="centering_floater"></div>
+<div id='centered_container'>
+
+  <h1>Pacman Live</h1>
+  <p class='error'>
+    <%=h "#{flash[:notice]}" if flash[:notice] %>
+   <% if @user_session.errors.count > 0 %>
+      <% @user_session.errors.each do |field_name, message| %>
+         <% if field_name == "base" %>
+           <%=h message %>
+         <% else %>
+           <%=h field_name.capitalize %> <%=h message %>
+         <% end %>
+      <% end %>
+    <% end %>
+  </p>
+
+<div id='login'>
+ <% form_for @user_session do |form| %>
+  <h3>Veteran Players</h3>
+  <p>Already registered and played a few games with us? Login here! If you've <%= link_to "forgotten your password, click here!", url_for(:controller => 'password_reset') %></p>
+  <fieldset>
+  <table>
+    <tr>
+      <td><label id="user_session_username_lbl">Username:</label></td>
+      <td><%= form.text_field :username, :class => "text" %></td>
+    </tr>
+
+    <tr>
+      <td><label id="user_session_password_lbl">Password:</label></td>
+      <td><%= form.password_field :password, :class => "text" %></td>
+    </tr>
+
+    <tr><td><%= submit_tag "Login", :class => "button" %></td></tr>
+  </table>
+  </fieldset>
+  
+ <% end %>
+ 
+ <!-- Screw you Mobile IE and your box model -->
+  <div id='register'>
+    <h3>New Players</h3>
+    <p><strong>Pacman Live</strong> is a Pacman clone with the game played in real life! We track you in realtime via your data-enabled, GPS equipped smartphone using any real life area as the game field and four other players - and make it seamless for you. We also provide you the ability to rewatch previous matches, earn achievements, and to have a good time!</p>
+    <p><%= link_to "&gt; Register now!", new_user_path %></p>
+  </div>
+
+</div>
+
+</div>

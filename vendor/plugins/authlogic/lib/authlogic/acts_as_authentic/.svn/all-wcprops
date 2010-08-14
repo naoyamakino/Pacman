@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/acts_as_authentic
+END
+perishable_token.rb
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/acts_as_authentic/perishable_token.rb
+END
+magic_columns.rb
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/acts_as_authentic/magic_columns.rb
+END
+password.rb
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/acts_as_authentic/password.rb
+END
+single_access_token.rb
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/acts_as_authentic/single_access_token.rb
+END
+restful_authentication.rb
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/acts_as_authentic/restful_authentication.rb
+END
+persistence_token.rb
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/acts_as_authentic/persistence_token.rb
+END
+session_maintenance.rb
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/acts_as_authentic/session_maintenance.rb
+END
+validations_scope.rb
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/acts_as_authentic/validations_scope.rb
+END
+email.rb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/acts_as_authentic/email.rb
+END
+login.rb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/acts_as_authentic/login.rb
+END
+base.rb
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/acts_as_authentic/base.rb
+END
+logged_in_status.rb
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/lib/authlogic/acts_as_authentic/logged_in_status.rb
+END

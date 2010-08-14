@@ -1,0 +1,11 @@
+<% if @user.errors.count > 0 %>
+  <p class="error">Cannot update the contact! You have some errors: <br />
+  <% @user.errors.each do |field_name, message| %>
+    * <%=h field_name.capitalize %>    <%=h message %><br />
+  <% end %>
+  </p>
+<% end %>
+<h2>Edit Account</h2>
+<p>Leave the password fields blank if you are not changing your password. You can change your information below.</p>
+
+<%= render :partial => 'form' %>

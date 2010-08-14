@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/CMPT470-1104-group9/!svn/ver/110/pacman/test/unit/helpers
+END
+players_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/CMPT470-1104-group9/!svn/ver/11/pacman/test/unit/helpers/players_helper_test.rb
+END
+match_logs_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/CMPT470-1104-group9/!svn/ver/11/pacman/test/unit/helpers/match_logs_helper_test.rb
+END
+avatars_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/CMPT470-1104-group9/!svn/ver/110/pacman/test/unit/helpers/avatars_helper_test.rb
+END
+users_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/CMPT470-1104-group9/!svn/ver/11/pacman/test/unit/helpers/users_helper_test.rb
+END
+password_reset_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/CMPT470-1104-group9/!svn/ver/105/pacman/test/unit/helpers/password_reset_helper_test.rb
+END
+user_sessions_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/test/unit/helpers/user_sessions_helper_test.rb
+END
+objects_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/CMPT470-1104-group9/!svn/ver/11/pacman/test/unit/helpers/objects_helper_test.rb
+END
+games_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/CMPT470-1104-group9/!svn/ver/11/pacman/test/unit/helpers/games_helper_test.rb
+END
+stats_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/CMPT470-1104-group9/!svn/ver/11/pacman/test/unit/helpers/stats_helper_test.rb
+END

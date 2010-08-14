@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/test/fixtures
+END
+users.yml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/test/fixtures/users.yml
+END
+employees.yml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/test/fixtures/employees.yml
+END
+projects.yml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/test/fixtures/projects.yml
+END
+companies.yml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/CMPT470-1104-group9/!svn/ver/16/pacman/vendor/plugins/authlogic/test/fixtures/companies.yml
+END

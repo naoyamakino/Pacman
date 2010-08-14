@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/CMPT470-1104-group9/!svn/ver/110/pacman/vendor/plugins/attachment_fu
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/CMPT470-1104-group9/!svn/ver/110/pacman/vendor/plugins/attachment_fu/LICENSE
+END
+Rakefile
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/CMPT470-1104-group9/!svn/ver/110/pacman/vendor/plugins/attachment_fu/Rakefile
+END
+rackspace_cloudfiles.yml.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/CMPT470-1104-group9/!svn/ver/110/pacman/vendor/plugins/attachment_fu/rackspace_cloudfiles.yml.tpl
+END
+init.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/CMPT470-1104-group9/!svn/ver/110/pacman/vendor/plugins/attachment_fu/init.rb
+END
+CHANGELOG
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/CMPT470-1104-group9/!svn/ver/110/pacman/vendor/plugins/attachment_fu/CHANGELOG
+END
+amazon_s3.yml.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/CMPT470-1104-group9/!svn/ver/110/pacman/vendor/plugins/attachment_fu/amazon_s3.yml.tpl
+END
+install.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/CMPT470-1104-group9/!svn/ver/110/pacman/vendor/plugins/attachment_fu/install.rb
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/CMPT470-1104-group9/!svn/ver/110/pacman/vendor/plugins/attachment_fu/README
+END

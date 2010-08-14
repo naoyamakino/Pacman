@@ -1,0 +1,36 @@
+<h2>Welcome <%= session[:user_id] %></h2>
+<% if flash[:message] %>
+  <div class="message"><%=h flash[:message] %></div>
+<% end %>
+<p>Welcome back! Games that are available for joining are listed below. Alternatively, you can <strong><%= link_to "create a new game by clicking here", new_game_path %></strong></p>
+<table>
+	<tr>
+	  <th>Game Name</th>
+          <th>Private?</th>
+	  <th>Location</th>
+	  <th>Players</th>
+	  <th>Join</th>
+	</tr>
+
+        <% i = 0 %>
+	<% @games.each do |game| %>
+  	  <% if i % 2 !=0 %>
+            <tr class="alt">
+          <% else %>
+	    <tr>
+          <% end %>
+ 
+            <td><%=h game.name %></td>
+	    <td><%=h game.isPrivate %></td>
+	    <td><%=h game.area %></td>
+	    <td>
+              <% for player in game.players %>
+                <%= link_to player.user.username, user_path(player.user.username) %><!-- username is alphanumeric only...we can get away with this -->
+               <% end %>
+	    </td>
+	     <td><%= link_to 'Join', :action => "join", :id => game.id %></td>
+	</tr>
+	<% i += 1 %>
+	<% end %>
+</table>
+

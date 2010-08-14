@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/CMPT470-1104-group9/!svn/ver/110/pacman/vendor/plugins/attachment_fu/lib/technoweenie/attachment_fu/backends
+END
+file_system_backend.rb
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/CMPT470-1104-group9/!svn/ver/110/pacman/vendor/plugins/attachment_fu/lib/technoweenie/attachment_fu/backends/file_system_backend.rb
+END
+db_file_backend.rb
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/CMPT470-1104-group9/!svn/ver/110/pacman/vendor/plugins/attachment_fu/lib/technoweenie/attachment_fu/backends/db_file_backend.rb
+END
+cloud_file_backend.rb
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/CMPT470-1104-group9/!svn/ver/110/pacman/vendor/plugins/attachment_fu/lib/technoweenie/attachment_fu/backends/cloud_file_backend.rb
+END
+s3_backend.rb
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/CMPT470-1104-group9/!svn/ver/110/pacman/vendor/plugins/attachment_fu/lib/technoweenie/attachment_fu/backends/s3_backend.rb
+END

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/CMPT470-1104-group9/!svn/ver/407/pacman/app/controllers
+END
+games_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/CMPT470-1104-group9/!svn/ver/407/pacman/app/controllers/games_controller.rb
+END
+stats_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/CMPT470-1104-group9/!svn/ver/11/pacman/app/controllers/stats_controller.rb
+END
+players_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/CMPT470-1104-group9/!svn/ver/11/pacman/app/controllers/players_controller.rb
+END
+replays_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/CMPT470-1104-group9/!svn/ver/325/pacman/app/controllers/replays_controller.rb
+END
+match_logs_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/CMPT470-1104-group9/!svn/ver/112/pacman/app/controllers/match_logs_controller.rb
+END
+avatars_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/CMPT470-1104-group9/!svn/ver/404/pacman/app/controllers/avatars_controller.rb
+END
+users_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/CMPT470-1104-group9/!svn/ver/357/pacman/app/controllers/users_controller.rb
+END
+application_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/CMPT470-1104-group9/!svn/ver/15/pacman/app/controllers/application_controller.rb
+END
+password_reset_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/CMPT470-1104-group9/!svn/ver/177/pacman/app/controllers/password_reset_controller.rb
+END
+user_sessions_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/CMPT470-1104-group9/!svn/ver/177/pacman/app/controllers/user_sessions_controller.rb
+END
+leaderboards_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/CMPT470-1104-group9/!svn/ver/362/pacman/app/controllers/leaderboards_controller.rb
+END
+objects_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/CMPT470-1104-group9/!svn/ver/11/pacman/app/controllers/objects_controller.rb
+END
